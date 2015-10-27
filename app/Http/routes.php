@@ -18,5 +18,3 @@ Route::get('/', function () {
 Route::get('/content', function () {
     return view('TestContent');
 });
-
-
