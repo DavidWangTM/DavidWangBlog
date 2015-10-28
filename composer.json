@@ -47,6 +47,8 @@
             "php artisan key:generate"
         ]
     },
+
+    
     "config": {
         "preferred-install": "dist"
     }
