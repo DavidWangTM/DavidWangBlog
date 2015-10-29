@@ -1,5 +1,4 @@
 @extends('app')
-
 @section('header')
     <header id="header" >
         <div class="menu" id="menu">

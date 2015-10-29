@@ -138,14 +138,14 @@
             <a href="">ing...</a>
         </p>
 
-        {{--<p class="pull-right contact">--}}
-            {{--<a href="javascript:;">--}}
-                {{--<i class="icon icon-weixin"></i>--}}
-                {{--<img width="155px" src="/img/qc.png" alt="Qrcode"></a>--}}
-            {{--<a href="https://github.com/DavidWangTM">--}}
-                {{--<i class="icon icon-"></i>--}}
-            {{--</a>--}}
-        {{--</p>--}}
+        <p class="pull-right contact">
+            <a href="javascript:;">
+                <i class="icon icon-weixin"></i>
+                <img width="155px" src="/img/qc.png" alt="Qrcode"></a>
+            <a href="https://github.com/DavidWangTM">
+                <i class="icon icon-weibo"></i>
+            </a>
+        </p>
 
     </div>
 </div>
