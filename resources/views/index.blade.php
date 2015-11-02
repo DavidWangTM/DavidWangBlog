@@ -79,19 +79,19 @@
                     <dd>
                         <ul>
                             <li>
-                                <a href="http://www.shenzhenware.com/events/1047030261">内容1...</a>
+                                <a href="events/1047030261">内容1...</a>
                             </li>
                             <li>
-                                <a href="http://www.shenzhenware.com/events/1047030249">内容2...</a>
+                                <a href="events/1047030249">内容2...</a>
                             </li>
                             <li>
-                                <a href="http://www.shenzhenware.com/events/1047030250">内容3...</a>
+                                <a href="events/1047030250">内容3...</a>
                             </li>
                             <li>
-                                <a href="http://www.shenzhenware.com/events/1047030103">内容4...</a>
+                                <a href="events/1047030103">内容4...</a>
                             </li>
                             <li>
-                                <a href="http://www.shenzhenware.com/events/1047030269">内容5....</a>
+                                <a href="events/1047030269">内容5....</a>
                             </li>
                         </ul>
                     </dd>
@@ -106,19 +106,19 @@
                     <dd>
                         <ul>
                             <li>
-                                <a href="">精选1</a>
+                                <a href="featured/1">精选1</a>
                             </li>
                             <li>
-                                <a href="">精选2...</a>
+                                <a href="featured/1">精选2...</a>
                             </li>
                             <li>
-                                <a href="">精选3...</a>
+                                <a href="featured/1">精选3...</a>
                             </li>
                             <li>
-                                <a href="">精选4.。</a>
+                                <a href="featured/1">精选4.。</a>
                             </li>
                             <li>
-                                <a href="">精选5.。</a>
+                                <a href="featured/1">精选5.。</a>
                             </li>
                         </ul>
                     </dd>

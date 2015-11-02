@@ -1,4 +1,4 @@
-@extends('main/main')
+@extends('main/main_default')
 @section('content')
 
     <div class="media-wrap">

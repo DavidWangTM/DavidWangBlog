@@ -30,25 +30,45 @@
         </div>
 
         <div class="collapse navbar-collapse" id="navMenu">
-            <ul class="nav navbar-nav">
-                <li class=''>
-                    <a href="/featured">精选</a>
-                </li>
-                <li class=''>
-                    <a href="/events">活动</a>
-                </li>
-                <li class=''>
-                    <a href="/wareplus">产品</a>
-                </li>
-            </ul>
-            <ul class="nav navbar-nav pull-right">
-                <li class="msg">
-                    <a href="/login" >登录</a>
-                </li>
-                <li class="msg">
-                    <a href="/register" >注册</a>
-                </li>
-            </ul>
+            @yield('head_index')
+            @if(Auth::check())
+                <ul class="nav-operate">
+                    <li class="msg dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown"> <i class="icon icon-msg"></i>
+                            <span>消息</span>
+                        </a>
+                        <ul class="dropdown-menu" role="menu">
+                            <li class="uc" role="presentation">
+                                <a role="menuitem" tabindex="-1" href="/user_center/notifications">站内通知</a>
+                            </li>
+                            <li class="divider"></li>
+                            <li class="uc" role="presentation">
+                                <a role="menuitem" tabindex="-1" href="/user_center/conversations">私信</a></li>
+                        </ul>
+                    </li>
+                    <li class="user dropdown open">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="true">
+                            <img src="http://7xi85d.com2.z0.glb.qiniucdn.com/default-avatars/c9.jpg" alt="C9">
+                            <span class="caret"></span>
+                        </a>
+                        <ul class="dropdown-menu" role="menu">
+                            <li class="divider"></li>
+                            <li class="uc" role="presentation">
+                                <a role="menuitem" tabindex="-1" href="/user_center"><span>用户中心</span><img src="http://7xi85d.com2.z0.glb.qiniucdn.com/default-avatars/c9.jpg" alt="C9"></a>
+                            </li>
+                            <li class="divider"></li>
+                            <li class="uc" role="presentation">
+                                <a role="menuitem" tabindex="-1" href="/logout" data-method="delete"><span>注销</span>
+                                    <img alt="深圳湾" src="http://7xi85d.com2.z0.glb.qiniucdn.com/assets/icon-shutdown-9b5c62a39ed8e2767449d0f05effef27.png">
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            @else
+                @yield('login_register_index')
+            @endif
+
         </div>
     </div>
 </nav>

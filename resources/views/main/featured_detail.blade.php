@@ -1,4 +1,4 @@
-@extends('main/main')
+@extends('main/main_default')
 @section('content')
     <div class="container">
         <div class="row row-select-details">
